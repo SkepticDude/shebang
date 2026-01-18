@@ -16,14 +16,16 @@ def shuffle_dataset():
 
     # Read all lines
     with open(pretrain_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+        # Read lines and strip whitespace to ensure clean entries
+        lines = [line.strip() for line in f if line.strip()]
 
     # Shuffle lines in place
     random.shuffle(lines)
 
     # Write shuffled lines to new file
     with open(train_file, 'w', encoding='utf-8') as f:
-        f.writelines(lines)
+        for line in lines:
+            f.write(line + '\n')
 
 if __name__ == "__main__":
     shuffle_dataset()

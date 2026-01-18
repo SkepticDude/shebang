@@ -1,4 +1,5 @@
 import os
+import json
 
 def combine_jsonl_files():
     # Define paths relative to this script location
@@ -25,7 +26,18 @@ def combine_jsonl_files():
                 file_path = os.path.join(commands_dir, filename)
                 with open(file_path, 'r', encoding='utf-8') as infile:
                     for line in infile:
-                        outfile.write(line)
+                        line = line.strip()
+                        if not line:
+                            continue
+                        # Remove trailing comma if present (common error in manual JSONL creation)
+                        if line.endswith(','):
+                            line = line[:-1]
+                        try:
+                            # Parse and re-dump to ensure consistent formatting and validity
+                            data = json.loads(line)
+                            outfile.write(json.dumps(data, ensure_ascii=False) + '\n')
+                        except json.JSONDecodeError:
+                            print(f"Warning: Skipping invalid JSON line in {filename}")
 
 if __name__ == "__main__":
     combine_jsonl_files()

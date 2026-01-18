@@ -1,12 +1,12 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-model_name = "models/flan-t5-linux"
+model_name = "models/shebang-linux"
 
 print(f"\nLoading model from {model_name}...\n")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-prompt = "List all files and folders"
+prompt = "Display the contents of the hosts file"
 print(f"Prompt: {prompt}")
 
 inputs = tokenizer(prompt, return_tensors="pt")

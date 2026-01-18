@@ -11,7 +11,7 @@ from transformers import (
 
 MODEL_NAME = "google/flan-t5-small"
 DATA_PATH = "data/input/train.jsonl"
-OUTPUT_DIR = "models/flan-t5-linux"
+OUTPUT_DIR = "models/shebang-linux"
 
 MAX_INPUT_LENGTH = 128
 MAX_OUTPUT_LENGTH = 64
@@ -24,12 +24,11 @@ def preprocess(example):
         truncation=True,
     )
 
-    with tokenizer.as_target_tokenizer():
-        labels = tokenizer(
-            example["output"],
-            max_length=MAX_OUTPUT_LENGTH,
-            truncation=True,
-        )
+    labels = tokenizer(
+        text_target=example["output"],
+        max_length=MAX_OUTPUT_LENGTH,
+        truncation=True,
+    )
 
     model_inputs["labels"] = labels["input_ids"]
     return model_inputs
@@ -50,7 +49,7 @@ if __name__ == "__main__":
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         overwrite_output_dir=True,
-        num_train_epochs=5,
+        num_train_epochs=10,
         per_device_train_batch_size=1,
         gradient_accumulation_steps=8,
         learning_rate=2e-4,
