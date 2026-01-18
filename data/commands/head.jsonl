@@ -1,0 +1,2 @@
+{"input": "Display first 10 lines of notes.txt", "output": "head notes.txt"}
+{"input": "Display first 20 lines of report.txt", "output": "head -n 20 report.txt"}

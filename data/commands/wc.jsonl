@@ -1,0 +1,3 @@
+{"input": "Count number of lines in file.txt", "output": "wc -l file.txt"}
+{"input": "Count number of words in document.txt", "output": "wc -w document.txt"}
+{"input": "Count number of characters in essay.txt", "output": "wc -c essay.txt"}

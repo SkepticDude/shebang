@@ -1,0 +1,4 @@
+{"input": "Display last 10 lines of log.txt", "output": "tail log.txt"}
+{"input": "Display last 15 lines of data.csv", "output": "tail -n 15 data.csv"}
+{"input": "Show last 100 lines of syslog", "output": "tail -n 100 /var/log/syslog"}
+{"input": "Monitor syslog in real-time", "output": "tail -f /var/log/syslog"}

@@ -1,0 +1,2 @@
+{"input": "Display manual for ls command", "output": "man ls"}
+{"input": "Display manual for grep command", "output": "man grep"}

@@ -1,0 +1,3 @@
+{"input": "Make script.sh executable", "output": "chmod +x script.sh"}
+{"input": "Set read and write permissions for user on file.txt", "output": "chmod u+rw file.txt"}
+{"input": "Set read, write, and execute permissions for user on program", "output": "chmod u+rwx program"}

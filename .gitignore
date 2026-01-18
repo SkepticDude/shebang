@@ -7,3 +7,4 @@ wandb/
 *.pyc
 .DS_Store
 *.jsonl
+!data/commands/*.jsonl

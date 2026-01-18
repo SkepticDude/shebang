@@ -1,0 +1,205 @@
+{"input": "Search text apple or orange in fruits.txt", "output": "grep 'apple\\|orange' fruits.txt"}
+{"input": "Search for pattern error in log.txt", "output": "grep 'error' log.txt"}
+{"input": "Find lines containing warning in app.log", "output": "grep 'warning' app.log"}
+{"input": "Find lines containing out of memory in system.log", "output": "grep 'out of memory' system.log"}
+{"input": "Search recursively for TODO in current directory", "output": "grep -r 'TODO' ."}
+{"prompt": "search for root in etc passwd", "command": "grep \"root\" /etc/passwd"}
+{"prompt": "find error in application log", "command": "grep \"error\" application.log"}
+{"prompt": "search for failed in auth log ignoring case", "command": "grep -i \"failed\" /var/log/auth.log"}
+{"prompt": "count lines containing 404 in access log", "command": "grep -c \"404\" access.log"}
+{"prompt": "find lines starting with user in config file", "command": "grep \"^user\" config.file"}
+{"prompt": "search recursively for TODO in src directory", "command": "grep -r \"TODO\" src/"}
+{"prompt": "show line numbers for matches of main in main c", "command": "grep -n \"main\" main.c"}
+{"prompt": "find exact word import in script py", "command": "grep -w \"import\" script.py"}
+{"prompt": "list filenames containing version in current directory", "command": "grep -l \"version\" *"}
+{"prompt": "search for lines ending with semicolon in style css", "command": "grep \";$\" style.css"}
+{"prompt": "find lines not containing debug in server log", "command": "grep -v \"debug\" server.log"}
+{"prompt": "search for 127 0 0 1 in etc hosts", "command": "grep \"127.0.0.1\" /etc/hosts"}
+{"prompt": "display 3 lines of context around error in debug log", "command": "grep -C 3 \"error\" debug.log"}
+{"prompt": "find lines with digits in data txt", "command": "grep \"[0-9]\" data.txt"}
+{"prompt": "search for function definitions in utils js", "command": "grep \"function\" utils.js"}
+{"prompt": "count occurrences of warning in all log files", "command": "grep -c \"warning\" *.log"}
+{"prompt": "find lines matching pattern error or fail in output txt", "command": "grep -E \"error|fail\" output.txt"}
+{"prompt": "search for uuid in database dump", "command": "grep \"uuid\" database.dump"}
+{"prompt": "show lines before match of exception in stacktrace log", "command": "grep -B 2 \"exception\" stacktrace.log"}
+{"prompt": "show lines after match of timeout in connection log", "command": "grep -A 2 \"timeout\" connection.log"}
+{"prompt": "find exact line match for end of file in readme md", "command": "grep -x \"End of file\" readme.md"}
+{"prompt": "search for bash in etc shells", "command": "grep \"bash\" /etc/shells"}
+{"prompt": "find all instances of class in project folder recursively", "command": "grep -r \"class\" project/"}
+{"prompt": "list files without copyright in src directory", "command": "grep -L \"copyright\" src/*"}
+{"prompt": "search for http in url list ignoring case", "command": "grep -i \"http\" url_list.txt"}
+{"prompt": "find lines starting with hash in comments txt", "command": "grep \"^#\" comments.txt"}
+{"prompt": "search for email addresses in contacts csv", "command": "grep -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}\" contacts.csv"}
+{"prompt": "count empty lines in draft doc", "command": "grep -c \"^$\" draft.doc"}
+{"prompt": "find lines containing ip address in network config", "command": "grep \"[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}\\.[0-9]\\{1,3\\}\" network.config"}
+{"prompt": "search for sudo in history file", "command": "grep \"sudo\" .bash_history"}
+{"prompt": "find lines with tabs in makefile", "command": "grep \"\t\" Makefile"}
+{"prompt": "search for deprecated in all java files recursively", "command": "grep -r \"deprecated\" --include=\"*.java\" ."}
+{"prompt": "find lines containing only numbers in ids txt", "command": "grep \"^[0-9]*$\" ids.txt"}
+{"prompt": "search for null in json response", "command": "grep \"null\" response.json"}
+{"prompt": "count non empty lines in story txt", "command": "grep -cve \"^$\" story.txt"}
+{"prompt": "find lines with trailing spaces in code py", "command": "grep \" $\" code.py"}
+{"prompt": "search for MemTotal in proc meminfo", "command": "grep \"MemTotal\" /proc/meminfo"}
+{"prompt": "find model name in proc cpuinfo", "command": "grep \"model name\" /proc/cpuinfo"}
+{"prompt": "search for usb in var log dmesg", "command": "grep -i \"usb\" /var/log/dmesg"}
+{"prompt": "find lines containing either yes or no in answers txt", "command": "grep -E \"yes|no\" answers.txt"}
+{"prompt": "search for password in config xml ignoring case", "command": "grep -i \"password\" config.xml"}
+{"prompt": "display filename and line number for fixme in all files", "command": "grep -Hn \"FIXME\" *"}
+{"prompt": "find lines starting with uppercase letter in names list", "command": "grep \"^[A-Z]\" names.list"}
+{"prompt": "search for cron in var log syslog", "command": "grep \"cron\" /var/log/syslog"}
+{"prompt": "find lines not starting with comment in script sh", "command": "grep -v \"^#\" script.sh"}
+{"prompt": "search for href in index html", "command": "grep \"href\" index.html"}
+{"prompt": "count matches of error in all log files recursively", "command": "grep -r -c \"error\" /var/log/"}
+{"prompt": "find exact word false in settings json", "command": "grep -w \"false\" settings.json"}
+{"prompt": "search for lines with 5 characters in words txt", "command": "grep -E \"^.{5}$\" words.txt"}
+{"prompt": "find lines containing brackets in math tex", "command": "grep \"\\[.*\\]\" math.tex"}
+{"prompt": "search for ssh in etc services", "command": "grep \"ssh\" /etc/services"}
+{"prompt": "find lines containing date format in events log", "command": "grep -E \"[0-9]{4}-[0-9]{2}-[0-9]{2}\" events.log"}
+{"prompt": "search for init in etc inittab", "command": "grep \"init\" /etc/inittab"}
+{"prompt": "find lines with special characters in raw data", "command": "grep \"[^a-zA-Z0-9]\" raw.data"}
+{"prompt": "search for deb in etc apt sources list", "command": "grep \"deb\" /etc/apt/sources.list"}
+{"prompt": "find lines containing path in environment variables", "command": "env | grep \"PATH\""}
+{"prompt": "search for nameserver in etc resolv conf", "command": "grep \"nameserver\" /etc/resolv.conf"}
+{"prompt": "count lines with success in test results", "command": "grep -c \"success\" test_results.txt"}
+{"prompt": "find lines starting with timestamp in trace log", "command": "grep \"^\\[[0-9:.]*\\]\" trace.log"}
+{"prompt": "search for include in header h", "command": "grep \"#include\" header.h"}
+{"prompt": "find lines containing dollar sign in prices csv", "command": "grep \"\\$\" prices.csv"}
+{"prompt": "search for return in function body", "command": "grep \"return\" function.body"}
+{"prompt": "find lines with duplicate words in text file", "command": "grep -E \"(\\b\\w+\\b) \\1\" text.file"}
+{"prompt": "search for error code 500 in access logs", "command": "grep \" 500 \" access.logs"}
+{"prompt": "find lines not containing a vowel in words list", "command": "grep -v \"[aeiou]\" words.list"}
+{"prompt": "search for key in authorized keys", "command": "grep \"ssh-rsa\" ~/.ssh/authorized_keys"}
+{"prompt": "find lines containing hex color code in css file", "command": "grep -E \"#[0-9a-fA-F]{6}\" style.css"}
+{"prompt": "search for alias in bashrc", "command": "grep \"alias\" ~/.bashrc"}
+{"prompt": "find lines with floating point numbers in measurements txt", "command": "grep -E \"[0-9]+\\.[0-9]+\" measurements.txt"}
+{"prompt": "search for export in profile", "command": "grep \"export\" ~/.profile"}
+{"prompt": "find lines containing email header in mail log", "command": "grep \"^From:\" mail.log"}
+{"prompt": "search for kernel in boot config", "command": "grep \"kernel\" /boot/config-$(uname -r)"}
+{"prompt": "find lines with unbalanced parenthesis in code c", "command": "grep \"(\" code.c | grep -v \")\""}
+{"prompt": "search for mount point in etc fstab", "command": "grep \"/mnt/data\" /etc/fstab"}
+{"prompt": "find lines containing ip v6 address in hosts file", "command": "grep \"::\" /etc/hosts"}
+{"prompt": "search for group sudo in etc group", "command": "grep \"sudo\" /etc/group"}
+{"prompt": "find lines with trailing whitespace in markdown file", "command": "grep \"[[:space:]]$\" doc.md"}
+{"prompt": "search for package name in installed packages", "command": "dpkg -l | grep \"vim\""}
+{"prompt": "find lines containing url in chat logs", "command": "grep -E \"https?://\" chat.logs"}
+{"prompt": "search for timezone in etc localtime", "command": "grep \"Timezone\" /etc/localtime"}
+{"prompt": "find lines with mixed case in dictionary", "command": "grep \"[a-z][A-Z]\" dictionary.txt"}
+{"prompt": "search for version in package json", "command": "grep \"\\\"version\\\":\\\" package.json"}
+{"prompt": "find lines containing xml tag in data xml", "command": "grep \"<.*>\" data.xml"}
+{"prompt": "search for user id 1000 in etc passwd", "command": "grep \":1000:\" /etc/passwd"}
+{"prompt": "find lines with more than 80 characters in source code", "command": "grep -E \".{81,}\" source.c"}
+{"prompt": "search for log level info in service log", "command": "grep \"\\[INFO\\]\" service.log"}
+{"prompt": "find lines containing quote characters in text csv", "command": "grep \"\\\"\" text.csv"}
+{"prompt": "search for pattern matching social security number in records", "command": "grep -E \"[0-9]{3}-[0-9]{2}-[0-9]{4}\" records.txt"}
+{"prompt": "find lines starting with dash in yaml file", "command": "grep \"^-\" config.yaml"}
+{"prompt": "search for listen address in sshd config", "command": "grep \"ListenAddress\" /etc/ssh/sshd_config"}
+{"prompt": "find lines containing unicode characters in utf8 txt", "command": "grep -P \"[\\x80-\\xFF]\" utf8.txt"}
+{"prompt": "search for document root in apache config", "command": "grep \"DocumentRoot\" /etc/apache2/sites-available/000-default.conf"}
+{"prompt": "find lines with exact phrase hello world in greeting txt", "command": "grep -F \"hello world\" greeting.txt"}
+{"prompt": "search for server name in nginx config", "command": "grep \"server_name\" /etc/nginx/nginx.conf"}
+{"prompt": "find lines containing variable assignment in bash script", "command": "grep \"=\" script.sh"}
+{"prompt": "search for active connections in netstat output", "command": "netstat -an | grep \"ESTABLISHED\""}
+{"prompt": "find lines with only whitespace in text doc", "command": "grep \"^[[:space:]]*$\" text.doc"}
+{"prompt": "search for processor in proc cpuinfo", "command": "grep \"processor\" /proc/cpuinfo"}
+{"prompt": "find lines containing copyright symbol in license txt", "command": "grep \"©\" license.txt"}
+{"prompt": "search for failed password in secure log", "command": "grep \"Failed password\" /var/log/secure"}
+{"prompt": "search for error in log txt", "command": "grep \"error\" log.txt"}
+{"prompt": "find warning in app log case insensitive", "command": "grep -i \"warning\" app.log"}
+{"prompt": "count lines with fail in sys log", "command": "grep -c \"fail\" sys.log"}
+{"prompt": "show lines not containing ok in status txt", "command": "grep -v \"ok\" status.txt"}
+{"prompt": "search recursively for main in src dir", "command": "grep -r \"main\" src/"}
+{"prompt": "show line numbers for todo in code py", "command": "grep -n \"todo\" code.py"}
+{"prompt": "search for root in etc passwd", "command": "grep \"root\" /etc/passwd"}
+{"prompt": "find localhost in etc hosts case insensitive", "command": "grep -i \"localhost\" /etc/hosts"}
+{"prompt": "count occurrences of user in auth log", "command": "grep -c \"user\" auth.log"}
+{"prompt": "find lines without hash in config file", "command": "grep -v \"#\" config.file"}
+{"prompt": "search for start in script sh", "command": "grep \"start\" script.sh"}
+{"prompt": "find end in game log ignoring case", "command": "grep -i \"end\" game.log"}
+{"prompt": "count matches of login in secure log", "command": "grep -c \"login\" secure.log"}
+{"prompt": "show lines not matching debug in output log", "command": "grep -v \"debug\" output.log"}
+{"prompt": "search recursively for class in lib folder", "command": "grep -r \"class\" lib/"}
+{"prompt": "show line numbers for function in utils js", "command": "grep -n \"function\" utils.js"}
+{"prompt": "search for path in profile", "command": "grep \"PATH\" .profile"}
+{"prompt": "find alias in bashrc ignoring case", "command": "grep -i \"alias\" .bashrc"}
+{"prompt": "count empty lines in data csv", "command": "grep -c \"^$\" data.csv"}
+{"prompt": "find non empty lines in text txt", "command": "grep -v \"^$\" text.txt"}
+{"prompt": "search for import in main java", "command": "grep \"import\" Main.java"}
+{"prompt": "find include in header h ignoring case", "command": "grep -i \"include\" header.h"}
+{"prompt": "count lines with error in build log", "command": "grep -c \"error\" build.log"}
+{"prompt": "show lines without warning in compile log", "command": "grep -v \"warning\" compile.log"}
+{"prompt": "search recursively for def in project dir", "command": "grep -r \"def\" project/"}
+{"prompt": "show line numbers for var in script js", "command": "grep -n \"var\" script.js"}
+{"prompt": "search for 127 0 0 1 in hosts file", "command": "grep \"127.0.0.1\" hosts.file"}
+{"prompt": "find 192 168 in network log ignoring case", "command": "grep -i \"192.168\" network.log"}
+{"prompt": "count matches of 404 in access log", "command": "grep -c \"404\" access.log"}
+{"prompt": "show lines not containing 200 in request log", "command": "grep -v \"200\" request.log"}
+{"prompt": "search for null in json file", "command": "grep \"null\" file.json"}
+{"prompt": "find true in config json ignoring case", "command": "grep -i \"true\" config.json"}
+{"prompt": "count false in settings json", "command": "grep -c \"false\" settings.json"}
+{"prompt": "show lines without undefined in dump js", "command": "grep -v \"undefined\" dump.js"}
+{"prompt": "search recursively for test in tests folder", "command": "grep -r \"test\" tests/"}
+{"prompt": "show line numbers for assert in test py", "command": "grep -n \"assert\" test.py"}
+{"prompt": "search for head in index html", "command": "grep \"head\" index.html"}
+{"prompt": "find body in page html ignoring case", "command": "grep -i \"body\" page.html"}
+{"prompt": "count div tags in layout html", "command": "grep -c \"div\" layout.html"}
+{"prompt": "show lines not containing span in content html", "command": "grep -v \"span\" content.html"}
+{"prompt": "search for color in style css", "command": "grep \"color\" style.css"}
+{"prompt": "find background in theme css ignoring case", "command": "grep -i \"background\" theme.css"}
+{"prompt": "count font in main css", "command": "grep -c \"font\" main.css"}
+{"prompt": "show lines without margin in reset css", "command": "grep -v \"margin\" reset.css"}
+{"prompt": "search recursively for img in assets dir", "command": "grep -r \"img\" assets/"}
+{"prompt": "show line numbers for url in links txt", "command": "grep -n \"url\" links.txt"}
+{"prompt": "search for get in server log", "command": "grep \"GET\" server.log"}
+{"prompt": "find post in api log ignoring case", "command": "grep -i \"POST\" api.log"}
+{"prompt": "count put in audit log", "command": "grep -c \"PUT\" audit.log"}
+{"prompt": "show lines not containing delete in transaction log", "command": "grep -v \"DELETE\" transaction.log"}
+{"prompt": "search for select in query sql", "command": "grep \"SELECT\" query.sql"}
+{"prompt": "find insert in db sql ignoring case", "command": "grep -i \"INSERT\" db.sql"}
+{"prompt": "count update in migration sql", "command": "grep -c \"UPDATE\" migration.sql"}
+{"prompt": "show lines without drop in backup sql", "command": "grep -v \"DROP\" backup.sql"}
+{"prompt": "search recursively for table in schema dir", "command": "grep -r \"TABLE\" schema/"}
+{"prompt": "show line numbers for key in index sql", "command": "grep -n \"KEY\" index.sql"}
+{"prompt": "search for ubuntu in os release", "command": "grep \"Ubuntu\" /etc/os-release"}
+{"prompt": "find debian in issue file ignoring case", "command": "grep -i \"debian\" /etc/issue"}
+{"prompt": "count centos in redhat release", "command": "grep -c \"CentOS\" /etc/redhat-release"}
+{"prompt": "show lines not containing fedora in release file", "command": "grep -v \"Fedora\" release.file"}
+{"prompt": "search for memtotal in proc meminfo", "command": "grep \"MemTotal\" /proc/meminfo"}
+{"prompt": "find model name in proc cpuinfo ignoring case", "command": "grep -i \"model name\" /proc/cpuinfo"}
+{"prompt": "count processor in cpu info", "command": "grep -c \"processor\" /proc/cpuinfo"}
+{"prompt": "show lines without swap in mem info", "command": "grep -v \"Swap\" /proc/meminfo"}
+{"prompt": "search recursively for usb in dev dir", "command": "grep -r \"usb\" /dev/"}
+{"prompt": "show line numbers for tty in consoles file", "command": "grep -n \"tty\" consoles.file"}
+{"prompt": "search for eth0 in interfaces", "command": "grep \"eth0\" /etc/network/interfaces"}
+{"prompt": "find wlan0 in wifi config ignoring case", "command": "grep -i \"wlan0\" wifi.config"}
+{"prompt": "count lo in ip output", "command": "grep -c \"lo\" ip.output"}
+{"prompt": "show lines not containing docker in bridge list", "command": "grep -v \"docker\" bridge.list"}
+{"prompt": "search for sshd in process list", "command": "grep \"sshd\" process.list"}
+{"prompt": "find nginx in service status case insensitive", "command": "grep -i \"nginx\" service.status"}
+{"prompt": "count apache in active services", "command": "grep -c \"apache\" active.services"}
+{"prompt": "show lines without mysql in db processes", "command": "grep -v \"mysql\" db.processes"}
+{"prompt": "search recursively for cron in var spool", "command": "grep -r \"cron\" /var/spool/"}
+{"prompt": "show line numbers for root in sudoers file", "command": "grep -n \"root\" /etc/sudoers"}
+{"prompt": "search for wheel in group file", "command": "grep \"wheel\" /etc/group"}
+{"prompt": "find staff in gshadow file case insensitive", "command": "grep -i \"staff\" /etc/gshadow"}
+{"prompt": "count daemon in passwd file", "command": "grep -c \"daemon\" /etc/passwd"}
+{"prompt": "show lines without nologin in shells file", "command": "grep -v \"nologin\" /etc/shells"}
+{"prompt": "search for nameserver in resolv conf", "command": "grep \"nameserver\" /etc/resolv.conf"}
+{"prompt": "find host in nsswitch conf ignoring case", "command": "grep -i \"host\" /etc/nsswitch.conf"}
+{"prompt": "count order in host conf", "command": "grep -c \"order\" /etc/host.conf"}
+{"prompt": "show lines without multi on in networks file", "command": "grep -v \"multi on\" /etc/networks"}
+{"prompt": "search recursively for allow in hosts allow", "command": "grep -r \"allow\" /etc/hosts.allow"}
+{"prompt": "show line numbers for deny in hosts deny", "command": "grep -n \"deny\" /etc/hosts.deny"}
+{"prompt": "search for listen in sshd config", "command": "grep \"Listen\" /etc/ssh/sshd_config"}
+{"prompt": "find port in ftp config case insensitive", "command": "grep -i \"Port\" ftp.config"}
+{"prompt": "count user in samba config", "command": "grep -c \"User\" samba.config"}
+{"prompt": "show lines without guest in share config", "command": "grep -v \"Guest\" share.config"}
+{"prompt": "search for timeout in sysctl conf", "command": "grep \"timeout\" /etc/sysctl.conf"}
+{"prompt": "find kernel in modules file case insensitive", "command": "grep -i \"kernel\" /etc/modules"}
+{"prompt": "count blacklist recursively in modprobe d", "command": "grep -r -c \"blacklist\" /etc/modprobe.d/"}
+{"prompt": "show lines without options in base conf", "command": "grep -v \"options\" base.conf"}
+{"prompt": "search for boot in fstab", "command": "grep \"boot\" /etc/fstab"}
+{"prompt": "show line numbers for uuid in blkid output", "command": "grep -n \"UUID\" blkid.output"}
+{"prompt": "search for type in mount output", "command": "grep \"type\" mount.output"}
+{"prompt": "find ext4 in fs list ignoring case", "command": "grep -i \"ext4\" fs.list"}
+{"prompt": "count ntfs in partition table", "command": "grep -c \"ntfs\" partition.table"}
+{"prompt": "show lines without vfat in drive list", "command": "grep -v \"vfat\" drive.list"}

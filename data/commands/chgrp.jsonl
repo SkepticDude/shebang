@@ -1,0 +1,2 @@
+{"input": "Change group of report.doc to staff", "output": "chgrp staff report.doc"}
+{"input": "Change group of myData directory to admin", "output": "chgrp -R admin myData"}

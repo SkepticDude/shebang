@@ -1,0 +1,1 @@
+{"input": "Show memory usage", "output": "free -h"}

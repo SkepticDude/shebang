@@ -1,0 +1,122 @@
+{"input": "Display source file contents", "output": "cat /etc/apt/sources.list"}
+{"prompt": "Display the contents of the hosts file", "completion": "cat /etc/hosts"}
+{"prompt": "Show me what is inside requirements.txt", "completion": "cat requirements.txt"}
+{"prompt": "Read the system log file", "completion": "cat /var/log/syslog"}
+{"prompt": "Print the contents of main.py to the terminal", "completion": "cat src/main.py"}
+{"prompt": "View the user configuration file", "completion": "cat ~/.gitconfig"}
+{"prompt": "Concatenate file1.txt and file2.txt", "completion": "cat file1.txt file2.txt"}
+{"prompt": "Display the contents of the hosts file with line numbers", "completion": "cat -n /etc/hosts"}
+{"prompt": "Show the contents of the passwd file with non-blank line numbers", "completion": "cat -b /etc/passwd"}
+{"prompt": "Squeeze multiple blank lines in notes.txt", "completion": "cat -s notes.txt"}
+{"prompt": "Display the contents of logfile.txt with $ at the end of each line", "completion": "cat -E logfile.txt"}
+{"prompt": "Show tabs as ^I in document.txt", "completion": "cat -T document.txt"}
+{"prompt": "Combine fileA.txt and fileB.txt into combined.txt", "completion": "cat fileA.txt fileB.txt > combined.txt"}
+{"prompt": "Read the contents of the bashrc file", "completion": "cat ~/.bashrc"}
+{"prompt": "Display the contents of the vimrc file", "completion": "cat ~/.vimrc"}
+{"prompt": "Show the contents of the zshrc file", "completion": "cat ~/.zshrc"}
+{"prompt": "View the contents of the ssh config file", "completion": "cat ~/.ssh/config"}
+{"prompt": "Display the contents of the nginx configuration file", "completion": "cat /etc/nginx/nginx.conf"}
+{"prompt": "Append contents of additional.txt to existing.txt", "completion": "cat additional.txt >> existing.txt"}
+{"prompt": "Display the kernel version information", "completion": "cat /proc/version"}
+{"prompt": "Show the system uptime information", "completion": "cat /proc/uptime"}
+{"prompt": "Read the mounted filesystems information", "completion": "cat /proc/mounts"}
+{"prompt": "Display the network interfaces configuration", "completion": "cat /etc/network/interfaces"}
+{"prompt": "Show the contents of the hosts.allow file", "completion": "cat /etc/hosts.allow"}
+{"prompt": "View the contents of the hosts.deny file", "completion": "cat /etc/hosts.deny"}
+{"prompt": "Display the contents of the ssh config file", "completion": "cat /etc/ssh/ssh_config"}
+{"prompt": "Show the contents of the sshd config file", "completion": "cat /etc/ssh/sshd_config"}
+{"prompt": "Read the contents of the firewall configuration file", "completion": "cat /etc/ufw/ufw.conf"}
+{"prompt": "Display the contents of the nginx configuration", "completion": "cat /etc/nginx/nginx.conf"}
+{"prompt": "Show the contents of the README markdown file", "completion": "cat README.md"}
+{"prompt": "Output the contents of the docker-compose yaml file", "completion": "cat docker-compose.yml"}
+{"prompt": "View the ssh public key", "completion": "cat ~/.ssh/id_rsa.pub"}
+{"prompt": "Display the release information of the linux distribution", "completion": "cat /etc/os-release"}
+{"prompt": "Show line numbers while displaying index.js", "completion": "cat -n index.js"}
+{"prompt": "Read the error log with line numbers", "completion": "cat -n /var/log/apache2/error.log"}
+{"prompt": "Display contents of script.sh but number non-blank lines only", "completion": "cat -b script.sh"}
+{"prompt": "Show the contents of the environment variable file", "completion": "cat .env"}
+{"prompt": "Create a new file named notes.txt from keyboard input", "completion": "cat > notes.txt"}
+{"prompt": "Append the contents of update.log to history.log", "completion": "cat update.log >> history.log"}
+{"prompt": "Display the cpu information", "completion": "cat /proc/cpuinfo"}
+{"prompt": "Show memory information from the proc directory", "completion": "cat /proc/meminfo"}
+{"prompt": "Squeeze multiple blank lines into one while reading draft.txt", "completion": "cat -s draft.txt"}
+{"prompt": "Display text.txt and show ends of lines with $", "completion": "cat -E text.txt"}
+{"prompt": "Show tabs as ^I in the Makefile", "completion": "cat -T Makefile"}
+{"prompt": "Concatenate part1.mp4 and part2.mp4 into full_movie.mp4", "completion": "cat part1.mp4 part2.mp4 > full_movie.mp4"}
+{"prompt": "Read the crontab file", "completion": "cat /etc/crontab"}
+{"prompt": "Dump the contents of the partition table", "completion": "cat /proc/partitions"}
+{"prompt": "Display the version of the debian system", "completion": "cat /etc/debian_version"}
+{"prompt": "View the contents of the python virtual environment activation script", "completion": "cat venv/bin/activate"}
+{"prompt": "Show the contents of the package.json file", "completion": "cat package.json"}
+{"prompt": "Display the contents of the resolve.conf file", "completion": "cat /etc/resolv.conf"}
+{"prompt": "Combine all log files in the current directory into all.log", "completion": "cat *.log > all.log"}
+{"prompt": "Read the contents of the bash history", "completion": "cat ~/.bash_history"}
+{"prompt": "Display the contents of the bash profile", "completion": "cat ~/.bash_profile"}
+{"prompt": "Show the contents of the zsh resource file", "completion": "cat ~/.zshrc"}
+{"prompt": "View the contents of the vim configuration file", "completion": "cat ~/.vimrc"}
+{"prompt": "Display the contents of the authorized_keys file", "completion": "cat ~/.ssh/authorized_keys"}
+{"prompt": "Show the contents of the known_hosts file", "completion": "cat ~/.ssh/known_hosts"}
+{"prompt": "Read the contents of the sudoers file", "completion": "cat /etc/sudoers"}
+{"prompt": "Display the contents of the group file", "completion": "cat /etc/group"}
+{"prompt": "Show the contents of the passwd file", "completion": "cat /etc/passwd"}
+{"prompt": "View the contents of the shadow file", "completion": "cat /etc/shadow"}
+{"prompt": "Display the contents of the fstab file", "completion": "cat /etc/fstab"}
+{"prompt": "Show the contents of the hostname file", "completion": "cat /etc/hostname"}
+{"prompt": "Read the contents of the timezone file", "completion": "cat /etc/timezone"}
+{"prompt": "Display the contents of the locale.gen file", "completion": "cat /etc/locale.gen"}
+{"prompt": "Show the contents of the sources.list file", "completion": "cat /etc/apt/sources.list"}
+{"prompt": "View the contents of the apache2.conf file", "completion": "cat /etc/apache2/apache2.conf"}
+{"prompt": "Display the contents of the my.cnf file", "completion": "cat /etc/mysql/my.cnf"}
+{"prompt": "Show the contents of the php.ini file", "completion": "cat /etc/php/7.4/apache2/php.ini"}
+{"prompt": "Read the contents of the postgresql.conf file", "completion": "cat /etc/postgresql/12/main/postgresql.conf"}
+{"prompt": "Display the contents of the redis.conf file", "completion": "cat /etc/redis/redis.conf"}
+{"prompt": "Show the contents of the mongod.conf file", "completion": "cat /etc/mongod.conf"}
+{"prompt": "View the contents of the elasticsearch.yml file", "completion": "cat /etc/elasticsearch/elasticsearch.yml"}
+{"prompt": "Display the contents of the kibana.yml file", "completion": "cat /etc/kibana/kibana.yml"}
+{"prompt": "Show the contents of the logstash.yml file", "completion": "cat /etc/logstash/logstash.yml"}
+{"prompt": "Read the contents of the prometheus.yml file", "completion": "cat /etc/prometheus/prometheus.yml"}
+{"prompt": "Display the contents of the grafana.ini file", "completion": "cat /etc/grafana/grafana.ini"}
+{"prompt": "Show the contents of the gitlab.rb file", "completion": "cat /etc/gitlab/gitlab.rb"}
+{"prompt": "View the contents of the jenkins config.xml file", "completion": "cat /var/lib/jenkins/config.xml"}
+{"prompt": "Display the contents of the ansible.cfg file", "completion": "cat /etc/ansible/ansible.cfg"}
+{"prompt": "Show the contents of the inventory file", "completion": "cat /etc/ansible/hosts"}
+{"prompt": "Read the contents of the playbook.yml file", "completion": "cat playbook.yml"}
+{"prompt": "Display the contents of the Dockerfile", "completion": "cat Dockerfile"}
+{"prompt": "Show the contents of the .dockerignore file", "completion": "cat .dockerignore"}
+{"prompt": "View the contents of the .gitignore file", "completion": "cat .gitignore"}
+{"prompt": "Display the contents of the .gitmodules file", "completion": "cat .gitmodules"}
+{"prompt": "Show the contents of the .gitattributes file", "completion": "cat .gitattributes"}
+{"prompt": "Read the contents of the .editorconfig file", "completion": "cat .editorconfig"}
+{"prompt": "Display the contents of the .eslintrc.json file", "completion": "cat .eslintrc.json"}
+{"prompt": "Show the contents of the .prettierrc file", "completion": "cat .prettierrc"}
+{"prompt": "View the contents of the tsconfig.json file", "completion": "cat tsconfig.json"}
+{"prompt": "Display the contents of the webpack.config.js file", "completion": "cat webpack.config.js"}
+{"prompt": "Show the contents of the babel.config.js file", "completion": "cat babel.config.js"}
+{"prompt": "Read the contents of the jest.config.js file", "completion": "cat jest.config.js"}
+{"prompt": "Display the contents of the gulpfile.js file", "completion": "cat gulpfile.js"}
+{"prompt": "Show the contents of the Gruntfile.js file", "completion": "cat Gruntfile.js"}
+{"prompt": "View the contents of the composer.json file", "completion": "cat composer.json"}
+{"prompt": "Display the contents of the composer.lock file", "completion": "cat composer.lock"}
+{"prompt": "Show the contents of the Gemfile", "completion": "cat Gemfile"}
+{"prompt": "Read the contents of the Gemfile.lock", "completion": "cat Gemfile.lock"}
+{"prompt": "Display the contents of the Rakefile", "completion": "cat Rakefile"}
+{"prompt": "Show the contents of the Pipfile", "completion": "cat Pipfile"}
+{"prompt": "View the contents of the Pipfile.lock", "completion": "cat Pipfile.lock"}
+{"prompt": "Display the contents of the pyproject.toml file", "completion": "cat pyproject.toml"}
+{"prompt": "Show the contents of the setup.py file", "completion": "cat setup.py"}
+{"prompt": "Read the contents of the manifest.json file", "completion": "cat manifest.json"}
+{"prompt": "Display the contents of the index.html file", "completion": "cat index.html"}
+{"prompt": "Show the contents of the styles.css file", "completion": "cat styles.css"}
+{"prompt": "View the contents of the script.js file", "completion": "cat script.js"}
+{"prompt": "Display the contents of the app.py file", "completion": "cat app.py"}
+{"prompt": "Show the contents of the server.go file", "completion": "cat server.go"}
+{"prompt": "Read the contents of the main.rs file", "completion": "cat main.rs"}
+{"prompt": "Display the contents of the Program.cs file", "completion": "cat Program.cs"}
+{"prompt": "Show the contents of the App.java file", "completion": "cat App.java"}
+{"prompt": "View the contents of the build.gradle file", "completion": "cat build.gradle"}
+{"prompt": "Display the contents of the pom.xml file", "completion": "cat pom.xml"}
+{"prompt": "Show the contents of the settings.xml file", "completion": "cat ~/.m2/settings.xml"}
+{"prompt": "Read the contents of the config.toml file", "completion": "cat config.toml"}
+{"prompt": "Display the contents of the database.yml file", "completion": "cat config/database.yml"}
+{"prompt": "Show the contents of the routes.rb file", "completion": "cat config/routes.rb"}
+{"prompt": "View the contents of the application.rb file", "completion": "cat config/application.rb"}

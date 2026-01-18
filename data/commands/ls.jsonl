@@ -1,0 +1,3 @@
+{"input": "List all files and folders", "output": "ls"}
+{"input": "Show all files", "output": "ls"}
+{"input": "Show all files and directories including hidden ones", "output": "ls -a"}

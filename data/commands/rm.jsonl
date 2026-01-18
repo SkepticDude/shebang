@@ -1,0 +1,2 @@
+{"input": "Remove file certificate.docx", "output": "rm certificate.docx"}
+{"input": "Remove directory temp and its contents", "output": "rm -r temp"}

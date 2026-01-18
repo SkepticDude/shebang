@@ -1,0 +1,2 @@
+{"input": "Terminate a process with pid 105", "output": "kill 105"}
+{"input": "Forcefully terminate a process with pid 205", "output": "kill -9 205"}

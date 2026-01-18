@@ -1,0 +1,2 @@
+{"input": "Move file salary.pdf into home directory", "output": "mv salary.pdf ~/"}
+{"input": "Rename file oldname.txt to newname.txt", "output": "mv oldname.txt newname.txt"}

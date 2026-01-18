@@ -1,0 +1,1 @@
+{"input": "Set environment variable MY_VAR to value", "output": "export MY_VAR=value"}

@@ -1,0 +1,2 @@
+{"input": "Change ticket.pdf file owner to user", "output": "chown user ticket.pdf"}
+{"input": "Change ownership of project directory to user", "output": "chown -R user project"}
